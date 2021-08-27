@@ -16,7 +16,7 @@ jobs:
         with: 
           submodules: true
       - name: Setup Node JS
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: 15.x
 
@@ -37,7 +37,7 @@ jobs:
         with: 
           submodules: true
       - name: Setup Node JS
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: 15.x
 
@@ -73,7 +73,7 @@ jobs:
         with: 
           submodules: true
       - name: Setup Node JS
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: 15.x
 
@@ -101,7 +101,7 @@ jobs:
         with: 
           submodules: true
       - name: Setup Node JS
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.4.0
         with:
           node-version: 15.x
 
